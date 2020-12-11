@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Materiel } from 'src/app/models/materiel';
 
 @Component({
-  selector: 'app-materiel',
+  selector: 'mar-materiel',
   templateUrl: './materiel.component.html',
   styleUrls: ['./materiel.component.css']
 })

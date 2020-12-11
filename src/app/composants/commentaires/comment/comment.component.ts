@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Commentaire } from 'src/app/models/commentaire';
 
 @Component({
-  selector: 'app-comment',
+  selector: 'mar-comment',
   templateUrl: './comment.component.html',
   styleUrls: ['./comment.component.css']
 })
