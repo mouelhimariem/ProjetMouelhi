@@ -1,5 +1,4 @@
 
-
 <div class="card text-center">
     <div class="card-header">
         {{mat.libelle |titlecase}}
@@ -15,6 +14,6 @@
         </span>
     </div>
     <div class="card-footer text-muted">
-        <button type="button" class="btn btn-primary">Détails</button>
+        <button  class="btn btn-primary"[routerLink]="['/informatique', mat.id]">Détails</button>
     </div>
 </div>
