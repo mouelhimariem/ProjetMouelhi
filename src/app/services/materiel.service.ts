@@ -70,7 +70,7 @@ export class MaterielService {
     return this.materiels;
     }
 
-    getMaterielById (id : string){
-      return this.materiels.filter(mat => mat.id==id);
+    getMaterielById (id : string):Materiel{
+      return <Materiel> this.materiels.find(mat => mat.id==id);
       }
 }
